@@ -35,7 +35,7 @@ callFunctionReturnFlushedQueue
    MessageQueue.js:117:17
 ```
 
-## Cause
+### Cause
 
 The cause of this exception comes from requesting a channel's history in PubNub with both of the following snippets:
 
