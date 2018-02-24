@@ -53,8 +53,13 @@ this.pubnub.history(
 );
 ```
 
-and this
+and this other snippet used to get the history with autoload:
 
 ```
-
+this.pubnub.subscribe({
+    channels: ['myChannel1'],
+    triggerEvents: true,
+    withPresence: true,
+    autoload: 100
+});
 ```
